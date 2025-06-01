@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.0.6" pages="12">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.1" pages="12">
   <diagram name="Flow 1" id="lyncj8XBOvh-yLFX94pD">
     <mxGraphModel dx="1310" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -369,18 +369,84 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9XSiSJSiMVYCD9dekyAq" name="Scraping">
-    <mxGraphModel dx="1429" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1565" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="s3JKFRd99UdtDtdDnQpf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s3JKFRd99UdtDtdDnQpf-5" target="s3JKFRd99UdtDtdDnQpf-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s3JKFRd99UdtDtdDnQpf-5" value="Mulai" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-500" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s3JKFRd99UdtDtdDnQpf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s3JKFRd99UdtDtdDnQpf-7" target="s3JKFRd99UdtDtdDnQpf-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s3JKFRd99UdtDtdDnQpf-7" value="Scraping Data menggunakan google-play-scraper" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="340" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s3JKFRd99UdtDtdDnQpf-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s3JKFRd99UdtDtdDnQpf-22" target="s3JKFRd99UdtDtdDnQpf-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s3JKFRd99UdtDtdDnQpf-22" value="&lt;div&gt;Hapus kolom yang tidak digunakan&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="520" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s3JKFRd99UdtDtdDnQpf-31" value="Selesai" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-500" y="580" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s3JKFRd99UdtDtdDnQpf-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s3JKFRd99UdtDtdDnQpf-35" target="s3JKFRd99UdtDtdDnQpf-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s3JKFRd99UdtDtdDnQpf-35" value="&lt;div&gt;Simpan hasil scraping ke dalam&lt;/div&gt;&lt;div&gt;CSV&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="400" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s3JKFRd99UdtDtdDnQpf-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s3JKFRd99UdtDtdDnQpf-37" target="s3JKFRd99UdtDtdDnQpf-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s3JKFRd99UdtDtdDnQpf-37" value="Memuat CSV ke Dataframe" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="460" width="200" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="No2Ryv2l7LpxwXB4NAFA" name="Cleaning">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1636" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="blZsChJAXAiJ25JDJPEd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="blZsChJAXAiJ25JDJPEd-2" target="blZsChJAXAiJ25JDJPEd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="blZsChJAXAiJ25JDJPEd-2" value="Mulai" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-500" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blZsChJAXAiJ25JDJPEd-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="blZsChJAXAiJ25JDJPEd-4" target="blZsChJAXAiJ25JDJPEd-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="blZsChJAXAiJ25JDJPEd-4" value="Scraping Data menggunakan google-play-scraper" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="340" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blZsChJAXAiJ25JDJPEd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="blZsChJAXAiJ25JDJPEd-6" target="blZsChJAXAiJ25JDJPEd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="blZsChJAXAiJ25JDJPEd-6" value="&lt;div&gt;Hapus kolom yang tidak digunakan&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="520" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blZsChJAXAiJ25JDJPEd-7" value="Selesai" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-500" y="580" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blZsChJAXAiJ25JDJPEd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="blZsChJAXAiJ25JDJPEd-9" target="blZsChJAXAiJ25JDJPEd-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="blZsChJAXAiJ25JDJPEd-9" value="&lt;div&gt;Simpan hasil scraping ke dalam&lt;/div&gt;&lt;div&gt;CSV&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="400" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blZsChJAXAiJ25JDJPEd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="blZsChJAXAiJ25JDJPEd-11" target="blZsChJAXAiJ25JDJPEd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="blZsChJAXAiJ25JDJPEd-11" value="Memuat CSV ke Dataframe" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="460" width="200" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
