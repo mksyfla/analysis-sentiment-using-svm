@@ -268,7 +268,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vPhuLMYyROJ0T3G3iRa9" name="Normalization">
-    <mxGraphModel dx="1677" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1973" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -276,10 +276,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uK7iOUN0E_OUJbznHBj0-2" value="Mulai" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
-          <mxGeometry x="-200" y="350" width="120" height="40" as="geometry" />
+          <mxGeometry x="-360" y="420" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uK7iOUN0E_OUJbznHBj0-3" value="Selesai" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
-          <mxGeometry x="280" y="420" width="120" height="40" as="geometry" />
+          <mxGeometry x="320" y="420" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nCC1KGItUPbzmQe2E4r1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uK7iOUN0E_OUJbznHBj0-8" target="Bo_S6yktAPR6AOkXzEt8-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -288,7 +288,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uK7iOUN0E_OUJbznHBj0-8" value="&lt;div&gt;Apakah&lt;/div&gt;&lt;div&gt;data pada&lt;/div&gt;&lt;div&gt;list data sudah&lt;/div&gt;&lt;div&gt;habis?&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="120" y="380" width="120" height="120" as="geometry" />
+          <mxGeometry x="160" y="380" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="nCC1KGItUPbzmQe2E4r1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uK7iOUN0E_OUJbznHBj0-9" target="uK7iOUN0E_OUJbznHBj0-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -309,45 +309,46 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Bo_S6yktAPR6AOkXzEt8-1" value="&lt;div&gt;Apakah data&lt;/div&gt;&lt;div&gt;terdapat pada&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;normalization_dict&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="120" y="530" width="120" height="120" as="geometry" />
+          <mxGeometry x="160" y="530" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="AJKpjJ6pazTfCleo3iYe-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="Bo_S6yktAPR6AOkXzEt8-2" target="uK7iOUN0E_OUJbznHBj0-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="100" y="440" />
+              <mxPoint x="120" y="700" />
+              <mxPoint x="120" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Bo_S6yktAPR6AOkXzEt8-2" value="tambahkan data ke list_text" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="120" y="680" width="120" height="40" as="geometry" />
+          <mxGeometry x="160" y="680" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nCC1KGItUPbzmQe2E4r1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Bo_S6yktAPR6AOkXzEt8-9" target="Bo_S6yktAPR6AOkXzEt8-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="360" y="700" />
+              <mxPoint x="400" y="700" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Bo_S6yktAPR6AOkXzEt8-9" value="&lt;div&gt;Ubah data sesuai value&amp;nbsp;&lt;/div&gt;&lt;div&gt;normalization_dict&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="280" y="570" width="120" height="40" as="geometry" />
+          <mxGeometry x="320" y="570" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gW_VeEqGqg64v5uIqxtf-1" value="Ya" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="240" y="410" width="40" height="30" as="geometry" />
+          <mxGeometry x="280" y="410" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gW_VeEqGqg64v5uIqxtf-2" value="Tidak" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="140" y="500" width="40" height="30" as="geometry" />
+          <mxGeometry x="180" y="500" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JeH0Df8jWHQq32IMRxrt-1" value="Ya" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="240" y="560" width="40" height="30" as="geometry" />
+          <mxGeometry x="280" y="560" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JeH0Df8jWHQq32IMRxrt-2" value="Tidak" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="130" y="650" width="50" height="30" as="geometry" />
+          <mxGeometry x="170" y="650" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="Dhv-jqw-4zyIY5G8m6QO" name="Stopword">
-    <mxGraphModel dx="1747" dy="931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1572" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -393,8 +394,8 @@
         <mxCell id="AsGnz0uH_a0NYQ186lSa-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ObwQNK35ylB7VBcg7U9e-2" target="Ki2OUo7iAFEddspAUq9b-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="500" y="500" />
-              <mxPoint x="500" y="280" />
+              <mxPoint x="520" y="500" />
+              <mxPoint x="520" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -404,8 +405,8 @@
         <mxCell id="AsGnz0uH_a0NYQ186lSa-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ObwQNK35ylB7VBcg7U9e-3" target="Ki2OUo7iAFEddspAUq9b-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="500" y="610" />
-              <mxPoint x="500" y="280" />
+              <mxPoint x="520" y="610" />
+              <mxPoint x="520" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -419,7 +420,7 @@
           <mxGeometry x="580" y="340" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AsGnz0uH_a0NYQ186lSa-3" value="Tidak" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="500" y="470" width="60" height="30" as="geometry" />
+          <mxGeometry x="520" y="470" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AsGnz0uH_a0NYQ186lSa-4" value="Ya" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="580" y="560" width="40" height="30" as="geometry" />
