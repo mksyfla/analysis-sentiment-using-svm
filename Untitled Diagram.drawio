@@ -169,38 +169,32 @@
     </mxGraphModel>
   </diagram>
   <diagram id="No2Ryv2l7LpxwXB4NAFA" name="Cleaning">
-    <mxGraphModel dx="983" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3f5Ri-fosi6Zz5a_UMoS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="biUl8KfokcqqTM9cBJEX-15" target="biUl8KfokcqqTM9cBJEX-24">
+        <mxCell id="3f5Ri-fosi6Zz5a_UMoS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="biUl8KfokcqqTM9cBJEX-15" target="biUl8KfokcqqTM9cBJEX-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="biUl8KfokcqqTM9cBJEX-15" value="Mulai" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
-          <mxGeometry x="80" y="400" width="120" height="40" as="geometry" />
+          <mxGeometry x="80" y="470" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="biUl8KfokcqqTM9cBJEX-20" value="Selesai" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
-          <mxGeometry x="560" y="550" width="120" height="40" as="geometry" />
+          <mxGeometry x="720" y="470" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3f5Ri-fosi6Zz5a_UMoS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="biUl8KfokcqqTM9cBJEX-22" target="oSv353FNddP_066qIesU-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="biUl8KfokcqqTM9cBJEX-22" value="Hapus karakter kutip satu (&#39;)" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="240" y="470" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3f5Ri-fosi6Zz5a_UMoS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="biUl8KfokcqqTM9cBJEX-24" target="biUl8KfokcqqTM9cBJEX-22">
+        <mxCell id="dRNMAmPu8OYdrR2D6kLS-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="biUl8KfokcqqTM9cBJEX-24" target="oSv353FNddP_066qIesU-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="biUl8KfokcqqTM9cBJEX-24" value="Masukkan data" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;" parent="1" vertex="1">
-          <mxGeometry x="80" y="470" width="120" height="40" as="geometry" />
+          <mxGeometry x="240" y="470" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3f5Ri-fosi6Zz5a_UMoS-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oSv353FNddP_066qIesU-1" target="eS3vMrb3gjlqlR8LFZRU-1">
+        <mxCell id="3f5Ri-fosi6Zz5a_UMoS-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oSv353FNddP_066qIesU-1" target="eS3vMrb3gjlqlR8LFZRU-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oSv353FNddP_066qIesU-1" value="&lt;div&gt;Hapus semua karakter&amp;nbsp;kecuali&amp;nbsp;&lt;/div&gt;&lt;div&gt;alfabet&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="400" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3f5Ri-fosi6Zz5a_UMoS-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eS3vMrb3gjlqlR8LFZRU-1" target="biUl8KfokcqqTM9cBJEX-20">
+        <mxCell id="3f5Ri-fosi6Zz5a_UMoS-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eS3vMrb3gjlqlR8LFZRU-1" target="biUl8KfokcqqTM9cBJEX-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eS3vMrb3gjlqlR8LFZRU-1" value="&lt;div&gt;Hapus karakter alfabet&amp;nbsp;dengan&lt;/div&gt;&lt;div&gt;1 karakter&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
